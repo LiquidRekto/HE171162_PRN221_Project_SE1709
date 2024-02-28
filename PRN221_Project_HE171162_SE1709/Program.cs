@@ -16,6 +16,7 @@ namespace PRN221_Project_HE171162_SE1709
 
             var app = builder.Build();
             app.MapRazorPages();
+            app.UseStaticFiles();
             app.Run();
         }
     }
